@@ -1,0 +1,1731 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    height: auto;
+}
+
+
+/* information */
+
+header .header {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+
+header .header .information {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 15px 0;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+header .header .information .thong-tin {
+    border-right: 2px solid #dee2e6;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+}
+
+header .header .information>.number {
+    border: none;
+}
+
+.fa:before {
+    margin-right: 5px;
+}
+
+
+/* end information */
+
+
+/* search follow */
+
+header .search-follow {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+/* search */
+
+header .search-follow .search {
+    width: 100%;
+    height: 100%;
+}
+
+.search-follow .search>form {
+    display: -webkit-inline-flex;
+    width: 100%;
+    position: relative;
+}
+
+.search-follow>.search>form input[type="text"] {
+    height: 34px;
+    margin: auto;
+    width: 100%;
+    border: none;
+}
+
+.search form>button {
+    height: 34px;
+    background-color: black;
+    width: 34px;
+    position: absolute;
+    right: 0;
+    border: none;
+}
+
+.search form>button {
+    outline: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.fa-search:before {
+    color: white;
+    height: 15px;
+    margin: auto;
+}
+
+
+/* end seacch */
+
+
+/* follow */
+
+header .search-follow .follow a>.btn {
+    width: 30px;
+    height: 30px;
+}
+
+.follow a {
+    display: inline-block;
+}
+.follow > a .btn:hover{
+    opacity: 0.9;
+}
+.follow .btn {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.follow .facebook {
+    background-color: #3b5998;
+}
+
+.follow .twitter {
+    background-color: #007bff;
+}
+
+.follow .google {
+    background-color: #f44336;
+}
+
+.follow .dribbble {
+    background-color: #ea4c89;
+}
+
+
+/* banner*/
+
+.banner {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 40% 20%;
+    justify-content: space-between;
+}
+
+
+/* logo */
+
+.banner .logo {
+    width: 100%;
+}
+
+.banner .logo a>img {
+    margin-left: 100px;
+}
+
+.banner .logo a {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.banner .logo a:hover {
+    opacity: 0.85;
+}
+
+.banner .logo a>b {
+    height: 68px;
+    font-size: 40px;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Arial Rounded MT Bold";
+    color: #fe8086;
+}
+
+    i.fas.fa-bars{
+        font-size: 30px;
+        color: #020000;
+    }
+/* end logo */
+
+
+/* menu*/
+
+#menu {
+    margin-top: 35px;
+}
+
+#menu .click-show-menu{
+    display: none;
+}
+#menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu ul li {
+    color: #cec80c;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    z-index: 333333;
+}
+#menu ul li a {
+    color: #cec80c;
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul li a:hover {
+    color: #09f90d;
+    background: white;
+}
+
+#menu ul li>.sup-menu {
+    display: none;
+    position: absolute;
+    z-index: 333333;
+    width: 150px;
+    border: 1px solid #dee2e6;
+}
+
+#menu ul li:hover .sup-menu {
+    display: block;
+    background: white;
+    margin: auto;
+    color: #020000;
+}
+
+#menu ul li>.sup-menu li {
+    text-align: left;
+    height: auto;
+    padding-top: 5px;
+    width: 120px;
+    margin: 0!important;
+}
+
+
+/* End menu */
+
+
+/* shop online */
+
+.shop {
+    line-height: 72px;
+}
+
+.shop .shop-online {
+    height: 50px;
+    width: 135px;
+    margin-left: 65px;
+    background-color: #fd7d82;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.shop .shop-online:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.shop .shop-online:focus {
+    outline: none;
+}
+
+
+/* end shop online*/
+
+
+/* sildeshow */
+
+.slideshow {
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.slideshow .img {
+    position: relative;
+    z-index: -3;
+    height: 100%;
+    width: 100%;
+}
+.slideshow > span{
+    position: absolute;
+    z-index: 3333;
+    font-size: 6rem;
+    height: 3rem;
+    line-height: 3rem;
+    top: 40%;
+    bottom: 40%;
+    margin: 0 5%;
+    cursor: pointer;
+    color: seagreen;
+}
+.slideshow > span:hover{
+    background: #6f7274;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.slideshow > span.next{
+    right: 0;
+}
+.slideshow .img img {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    animation: slide 12300ms infinite;
+    transition: all 3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+.active {
+    opacity: 1!important;
+}
+
+
+/* card */
+
+#card {
+    width: 100%;
+    z-index: 1;
+    /* top: -60px; */
+    margin-bottom: 100px;
+}
+
+#card>.card {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    text-align: center;
+}
+.knife-and-fork,.icon-laugh,.birthday{
+    height: 250px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 20px 20px #e2d5d5;
+}
+.knife-and-fork{
+    z-index: 1;
+    transition: 0.5s !important;
+    
+}
+.icon-laugh{
+    z-index: 1;
+    transition: 1.5s !important;
+  
+    
+}
+.birthday{
+    z-index: 1;
+    transition: 2.5s !important;
+
+}
+.card-title .card-title-icon {
+    background-color: #ffe5e6;
+    width: 25%;
+    height: 70px;
+    margin: auto;
+}
+
+#card>.card .card-title .card-title-text {
+    margin: 20px 0;
+}
+
+#card>.card .card-title .card-title-icon>i {
+    font-size: 30px;
+    height: 100%;
+    color: #fd5c63;
+    line-height: 70px;
+}
+
+
+/* end card */
+
+
+/* welcome baking */
+
+article#welcome-banking {
+    height: 100%;
+    width: 100%;
+}
+
+.header-baking {
+    width: 90%;
+    height: auto;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #dee2e6;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 50% 45%;
+    justify-content: space-between;
+}
+
+.baking-text h1 {
+    margin-top: 5%;
+    letter-spacing: 2px;
+    font-family: "Bernard MT Condensed";
+    opacity: 0.8;
+}
+
+.baking-text .baking-gioithieu {
+    margin: 11% 0;
+    overflow: hidden;
+}
+.header-baking .baking-image {
+    transform: translateX(-150%);
+}
+.header-baking .baking-text .baking-gioithieu > p{
+    transform: translateX(150%);
+}
+.baking-text .baking-gioithieu>p {
+    padding: 2% 0;
+   
+}
+
+
+/* end welcome baking*/
+
+
+
+
+/* content-title-baking */
+
+article#content-title-baking {
+    height: 100%;
+    width: 100%;
+}
+
+.content-title-baking {
+    width: 90%;
+    height: auto;
+    padding: 80px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 45%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.content-title-baking .baking-image{
+    transform: translateX(150%);
+}
+.content-title-baking  .baking-gioithieu > p{
+    transform: translateX(-200%);
+}
+/* end content-baking */
+
+
+/* chef */
+
+section#our-best-chef {
+    height: auto;
+    width: 100%;
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#our-best-chef .our-best-chef {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5% auto;
+}
+
+.our-best-chef .introduce-chef {
+    width: 83%;
+    /* height: 59%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 32% 32% 31%;
+    justify-content: space-between;
+}
+
+.our-best-chef .title-chef {
+    padding-top: 6%;
+    padding-bottom: 4%;
+    box-sizing: border-box;
+}
+
+.our-best-chef .title-chef h1 {
+    color: white;
+    font-family: "High Tower Text";
+    font-size: 50px;
+    padding: 5% auto;
+    box-sizing: border-box;
+}
+
+.chef-one,
+.chef-three,
+.chef-two {
+    background: white;
+    margin-bottom: 28%;
+}
+
+.images-chef {
+    margin: 10% 0;
+}
+
+.images-chef img {
+    border-radius: 50%;
+}
+
+.ranking-chef,
+.name-chef,
+.life-mootto-cher,
+.follow-chef {
+    margin: 6% 0;
+}
+
+.ranking-chef {
+    color: #fd6f75;
+    letter-spacing: 3px;
+}
+
+.name-chef {
+    font-size: 30px;
+}
+
+.life-mootto-cher {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.follow-chef a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.follow-chef a:hover {
+    opacity: 0.5;
+}
+
+.follow-chef a.fa-facebook-f {
+    background: #627aad;
+}
+
+.fa-facebook-f:before {
+    padding-right: 5px;
+}
+
+.follow-chef a.fa-twitter {
+    background: #4ab4f5;
+}
+
+.follow-chef a.fa-google-plus-g {
+    background: #dd4b39;
+}
+
+.fa-google-plus-g:before {
+    padding-right: 5px;
+}
+
+.follow-chef a.fa-linkedin-in {
+    background: #0077b5;
+}
+
+.fa-linkedin-in:before {
+    padding-right: 5px;
+}
+
+
+/* end chef */
+
+
+/* blog */
+
+section#blog {
+    width: 100%;
+    height: 100%;
+    margin: 10% auto;
+}
+
+section .blog .content-blog {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.blog .title-blog {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog .title-blog>h1 {
+    font: 40px inherit oblique;
+}
+
+.blog .content-blog .card-blog {
+    border: 1px solid #dee2e6;
+}
+
+.card-body-blog {
+    width: 90%;
+    margin: 10% auto;
+}
+
+.card-img-blog {
+    position: relative;
+    z-index: 0;
+}
+
+.card-img-blog>a img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-blog>a img:hover {
+    opacity: 0.8;
+}
+
+.card-img-blog>a:before {
+    content: "\f007";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 5px solid white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #fd5c63;
+    color: white;
+    z-index: 1;
+    bottom: -20px;
+    right: 2%;
+}
+
+.author .images-author>img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.card-body-blog h2 {
+    margin: 5% 0;
+}
+
+.author {
+    display: flex;
+    margin: 5% 0;
+}
+
+.share-blog>a {
+    text-decoration: none;
+    color: #483b4b;
+    font-size: 20px;
+}
+
+.share-blog a:hover {
+    opacity: 0.7;
+}
+
+.author .name-author {
+    margin-left: 3%;
+}
+
+
+/*
+top chef
+ */
+
+section#top-chef {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+#top-chef img {
+    width: 100%;
+    height: 100%;
+}
+
+#top-chef .img-top-chef {
+    height: 100%;
+}
+
+#top-chef .img-bottom-chef {
+    height: 100%;
+}
+
+#top-chef .OurAchievements {
+    background-image: url("../images/bg2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#top-chef .testimonials {
+    background-image: url("../images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+
+
+/*
+    OurAchievements
+ */
+
+.OurAchievements .header {
+    margin: 14% 0 0 5%;
+}
+
+.OurAchievements .header>h4 {
+    color: #fd8187;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.OurAchievements .header>h2 {
+    font-size: 30px;
+}
+
+
+/* list OurAchievements */
+
+.list-OurAchievements {
+    height: 100%;
+    width: 100%;
+    margin: 5% 0 0 0;
+}
+
+.list-OurAchievements h2 {
+    margin-bottom: 5%;
+}
+
+.list-OurAchievements p {
+    opacity: 0.7;
+}
+
+
+/*
+Competitions
+ */
+
+.Competitions {
+    display: flex;
+    margin: 10% 0 0 5%;
+}
+
+.title-icon {
+    width: 10%;
+    text-align: center;
+}
+
+.title-icon>span {
+    font-size: 30px;
+    margin: 20% 0;
+    color: #fd5c63;
+}
+
+.Competitions .content-Competitions {
+    width: 70%;
+}
+
+
+/*
+    chef-Trainers
+ */
+
+.chef-Trainers {
+    display: flex;
+    margin: 10% 5%;
+}
+
+.content-Chefs-Trainers {
+    width: 70%;
+}
+
+
+/*
+Emloyment
+ */
+
+.Employment {
+    display: flex;
+    margin: 10% 5%;
+}
+
+.content-Employment {
+    width: 70%;
+}
+
+
+/*
+Tesimonials.
+ */
+
+.testimonials .header>h4 {
+    color: #fd8187;
+    font-size: 22px;
+}
+.testimonials .content-testimonials{
+    padding: 5% 5% 20% 5%;
+}
+.testimonials .header>h1 {
+    font-size: 33px;
+}
+
+
+
+.testimonials .introduce>h3 {
+    color: #6f7274;
+    padding: 5% 0;
+    box-sizing: border-box;
+}
+
+.testimonials .introduce>p {
+    margin-top: 15px;
+}
+
+.list-testimonials {
+    margin: 10% 0;
+}
+
+.list-testimonials ul li {
+    display: block;
+    margin: 10px 10px 14px 8%;
+}
+
+.list-testimonials ul li a {
+    text-decoration: none;
+    margin-left: 2%;
+    color: #6f7274;
+}
+
+.list-testimonials ul li:hover a {
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+
+/*
+    our gallery
+ */
+
+article#Our-Gallery {
+    height: 100%;
+    width: 100%;
+    margin: 10% 0;
+}
+
+
+/* title our1 */
+
+#Our-Gallery .titile-our {
+    text-align: center;
+}
+
+#Our-Gallery .titile-our>h1 {
+    font-size: 30px;
+    font-family: "Arial Narrow";
+    margin: 5% 0;
+}
+
+
+/* content - our - img
+ */
+
+.content-our-img {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto;
+}
+.content-our-img>.images {
+    padding: 10px;
+}
+
+.content-our-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-our-img>.images:hover {
+    box-shadow: 2px 5px 5px 5px #e2d5d5;
+}
+
+
+/*
+Contact-US
+ */
+
+.Contact-Us {
+    width: 100%;
+    height: 100%;
+}
+
+.Contact-Us .diachi {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Contact-Us>h1 {
+    margin: 5% 0;
+    text-align: center;
+}
+
+
+/*
+Map
+ */
+
+
+/* form */
+
+.form-register {
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 5px 5px 5px #e2d5d5;
+}
+
+.form-register h3 {
+    padding: 5% 15%;
+    box-sizing: border-box;
+}
+
+.form-register form {
+    width: 100%;
+    padding: 0 15%;
+    box-sizing: border-box;
+}
+
+.form-register form>input[type="text"],
+input[name="email"],
+input[type="number"] {
+    height: 45px;
+    border-radius: 5px;
+    margin: 5% 0;
+    border: 1px solid #e2d5d5;
+}
+
+.form-register form>input[type="text"]:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.form-register form>input[name="name"] {
+    width: 50%;
+}
+
+.form-register form>input[name="email"] {
+    width: 45%;
+}
+
+.form-register form>input[name="message"] {
+    height: 100px;
+}
+
+.px {
+    width: 97%;
+}
+
+
+/*
+Help - Support
+ */
+
+#Help-Support {
+    width: 100%;
+    height: 100%;
+    margin: 10% 0;
+}
+
+#Help-Support .include {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*
+include
+ */
+
+.include .title-Help-Support {
+    padding: 5% 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/*
+Content-help-SUPPORT
+ */
+
+.Content-Help-Support {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Content-Help-Support .online-support,
+.live-chat,
+.any-questions {
+    padding: 0 8%;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+
+.Content-Help-Support h5 {
+    font-family: cursive;
+    font-size: 1.25rem;
+    margin: 4% 0;
+}
+
+.Content-Help-Support span {
+    font-size: 50px;
+    color: #fd5c63;
+}
+
+.Content-Help-Support p {
+    margin-bottom: 4%;
+    opacity: 0.6;
+}
+
+.Content-Help-Support a {
+    height: 40px;
+    width: 38%;
+    margin-top: 15%;
+    line-height: 40px;
+    background: black;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/*
+footer
+ */
+
+footer {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .Subscribe {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+}
+
+footer .Subscribe .title-sub {
+    padding: 6% 4% 2% 4%;
+    box-sizing: border-box;
+}
+
+footer .Subscribe .title-sub h4 {
+    font-size: 2rem;
+}
+
+footer .Subscribe .form-sub {
+    padding: 4% 4% 7% 4%;
+    box-sizing: border-box;
+}
+
+.form-sub {
+    justify-content: space-between;
+}
+
+.form-sub input[name="Name"],
+input[name="Email-Address"] {
+    height: 40px;
+    width: 30%;
+    padding-left: 10px;
+    border: 1px solid #e2d5d5;
+    box-shadow: 2px 5px 5px #e2d5d5;
+    box-sizing: border-box;
+}
+
+.form-sub form>input[name="Email-Address"] {
+    margin: 0 4.7%;
+}
+
+.form-sub .btn-sub {
+    height: 42px;
+    width: 30%;
+    border: 1px solid #e2d5d5;
+    box-shadow: 2px 5px 5px #e2d5d5;
+    float: right;
+    background: #fd5c63;
+    color: white;
+    font-size: inherit;
+    letter-spacing: 2px;
+}
+
+
+/*
+baking SUB
+ */
+
+.Baking {
+    width: 80%;
+    margin: 8% auto auto auto;
+    padding-bottom: 6%;
+    display: flex;
+}
+
+.title-baking {
+    width: 30%;
+    color: white;
+    font-size: 24px;
+}
+
+.list-baking {
+    width: 70%;
+    display: flex;
+}
+
+.list-baking>.home,
+.navigation,
+.company,
+.contant-us {
+    width: 25%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.list-baking h4 {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.list-baking ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.list-baking ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    position: relative;
+
+}
+
+.list-baking ul li:hover a{
+    letter-spacing: 3px;
+}
+.list-baking ul li a::after{
+    content: "";
+    height: 1px;
+    width: 0;
+    display: block;
+    position: absolute;
+    background: white;
+}
+.list-baking ul li:hover a::after{
+    width: 100%;
+    transition: 1.5s;
+}
+.author-license{
+    padding: 2% 0;
+    text-align: center;
+    color: white;
+    background: #020000;
+}
+
+/*
+    Responsive
+*/
+/*
+    responsive < 576px
+*/
+@media screen and (max-width:576px){
+    /* header */
+    header .header{
+        display: block;
+    }
+    header .header .information{
+        margin: 0;
+        padding: 10px 0;
+    }
+    header .header .information .thong-tin {
+        height: 100%;
+    }
+    header .search-follow{
+        display: block;
+    }
+    /* Banner */
+    .banner{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        transition: 1.5s;
+    }
+    .banner .logo a>img{
+        margin: 0;
+        display: none;
+    }
+    #menu .click-show-menu{
+        display: block ;
+        transition: 1s;
+    }
+    .show-menu{
+        display: grid !important;
+    }
+    #menu{
+        text-align: center;
+    }
+    #menu ul{
+        display: none;
+        text-align: left;
+    }
+    #menu ul li{
+        margin: 0;
+    }
+    #menu ul li>.sup-menu {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    /*
+        sildeshow
+    */
+        .slideshow{
+            height: 300px;
+        }
+    /*
+        card
+    */
+    #card > .card{
+        display: block;
+    }
+    #card>.card>.knife-and-fork,
+    .icon-laugh,
+    .birthday{
+            margin: 15px 0;
+        }
+      
+    /*
+        welcome-baking
+    */
+    .header-baking{
+        display: block;
+    }
+    /*
+        content-baking
+    */    
+    .content-title-baking {
+        display: block;
+    }
+    /*
+        chef
+    */
+    .our-best-chef .introduce-chef{
+        display: block;
+        padding: 15px 0;
+    }
+    .images-chef img{
+        padding-top:10px;
+    }
+    .chef-three,.chef-one,.chef-two{
+        margin: 10% 0;
+        padding-bottom:5%; 
+    }
+    /*
+        Blog
+    */
+    section .blog .content-blog{
+        display: block;
+    }
+    .blog .content-blog .card-blog{
+        margin-top: 10%;
+    }
+    .author .images-author>img {
+        width: 100px;
+    }
+    .author .name-author {
+        margin: 6%;
+    }
+    /* 
+        top chef
+    */
+    section#top-chef{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #top-chef .testimonials{
+            background-size: contain;
+            background-position: bottom left;
+            background-repeat: no-repeat;
+    }
+    .list-testimonials{
+        margin: 0;
+        /* padding-left: 10%; */
+        /* padding-bottom: 25%; */
+    }
+    .list-testimonials > ul{
+        padding-top: 10%;
+    }
+    /*
+        Our Gallery
+    */
+    .content-our-img{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    /*
+        Contact Us
+    */
+    .form-register form>input[name="name"] {
+        width: 100%;
+    }
+    .form-register form>input[name="email"] {
+        width: 100%;
+    }
+    /*
+        Map
+    */
+    div#map {
+        height: 500px;
+    }
+    .Contact-Us .diachi{
+        grid-template-columns: 100%;
+    }
+    .px{
+        width: 100%;
+    }
+    /*
+        Help Support
+    */
+    .Content-Help-Support{
+        grid-template-columns: 100% !important;
+    }
+    .live-chat{
+        margin: 15% 0;
+    }
+    .any-questions{
+        margin-bottom: 10%;
+    }
+    /*
+        Subscribe Newsletter
+    */
+    footer .Subscribe {
+        width: 90%;
+    }
+    .form-sub input[name="Name"], input[name="Email-Address"]{
+        width: 100%;
+    }
+    .form-sub form>input[name="Email-Address"]{
+        
+        margin: 15px 0 0 0;
+    }
+    footer .Subscribe .title-sub {
+        padding: 5% 4% 2% 4%;
+        box-sizing: border-box;
+    }
+    footer .Subscribe .form-sub{
+        padding: 4% 4% 20% 4%;
+    }
+    .form-sub .btn-sub{
+        margin-top: 15px;
+        width: 100%;
+    }
+    /*
+    Baking
+    */
+    .Baking {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 6%;
+        display: block;
+    }
+    .title-baking{
+        margin-left: 5%;
+    }
+    .list-baking {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .list-baking>.home, .navigation, .company, .contant-us{
+        width: 100%;
+    }
+    /* 
+        footer
+    */
+    footer{
+        background-position: bottom;
+    }
+}
+ /*
+    responsive > 576px and 768px
+*/
+
+@media screen and (max-width: 576px){
+    .list-baking{
+        display: block;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    /*
+        Header
+    */
+    header .header{
+        display: block;
+    }
+    header .header .information{
+        margin: 0;
+        padding: 15px 0;
+    }
+    header .header .information .thong-tin{
+        height: 100%;
+    }
+    /*
+    Banner
+    */
+    .banner .logo a>img{
+        display: none;
+    }
+    #menu{
+        margin-top: 26px;
+        text-align: center;
+    }
+    #menu ul{
+        display: none;
+        margin: 15px 0;
+    }
+    #menu ul li{
+        margin: 5px;
+        text-align: left;
+    }
+    #menu .click-show-menu{
+        display: block;
+    }
+    .show-menu{
+        display: grid !important;
+    }
+    .shop .shop-online{
+        margin: 0;
+        width: 120px;
+    }
+    #menu ul li>.sup-menu {
+        position: static;
+        width: 100%;
+    }
+    /*
+    
+        slideshow
+    */
+    .slideshow{
+        height: 300px;
+    }
+
+    /*
+        Card
+        */
+        #card>.card{
+            width: 55%;
+            display: block;
+        }
+    #card>.card>.knife-and-fork,
+    .icon-laugh,
+    .birthday{
+            height: auto;
+            margin: 15px 0;
+            padding: 20px 35px;
+        }
+
+    /*
+        welcome-baking
+        */
+        .header-baking{
+            display: block;
+            padding:0;
+        }
+        .content-title-baking{
+            display: block;
+        }
+        /*
+        our-best-chef
+        */
+        .follow-chef a.fa-facebook-f{
+            margin-bottom: 5px;
+        }
+        .follow-chef a.fa-google-plus-g{
+            margin-bottom: 5px;
+        }
+        /*
+        top-chef
+        */
+        section#top-chef{
+            grid-template-columns: 100%;
+        }
+        /*
+            map
+        */
+        #map{
+            height: 450px;
+        }
+        .Contact-Us .diachi{
+            grid-template-columns: 100%;
+        }
+        .form-register form>input[type="text"], input[name="email"], input[type="number"]{
+                width: 100%;
+        }
+        .form-register form>input[name="email"]{
+            width: 100%;
+        }
+        /*
+            Help & Support
+        */
+        .Content-Help-Support{
+            grid-template-columns: 100%;
+         
+        }
+        /*
+        Subscribe Newsletter
+        */
+        footer .Subscribe .form-sub{
+            padding: 4% 4% 15% 4%;
+        }
+        .form-sub input[name="Name"], input[name="Email-Address"],.btn-sub{
+            width: 100% !important;
+        }
+        .form-sub form>input[name="Email-Address"]{
+            margin: 15px 0;
+        }
+
+        /*
+            Baking 
+        */
+        .Baking{
+            display: block;
+            
+        }   
+        .list-baking{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .list-baking>.home, .navigation, .company, .contant-us{
+            width: 100%;
+            padding-left: 0;
+            padding-right: 5%;
+        }
+        
+}
+    /*
+            respomsive 768 and 992
+
+        */
+        @media screen and (min-width:768px) and (max-width:953px){
+            header .header{
+                display: block;
+            }
+            header .header .information{
+                margin: 0;
+            }
+        }
+
+        @media screen and (min-width:768px) and (max-width:914px){
+            .form-sub form>input[name="Email-Address"]{
+                margin: 0 4.5% !important;
+            }
+        }
+          /*
+              responsive 768px and 992px
+        */
+        @media screen and (min-width:768px) and (max-width:992px) {
+            /*
+                header
+
+            */
+            header .header{
+                display: block;
+            }
+
+            header .header .information{
+                margin: 0;
+                padding: 15px 0;
+            }
+            header .header .information .thong-tin{
+                height: 100%;
+            }
+
+            /*
+            banner
+            */
+            .banner .logo a>img{
+                margin: 0;
+            }
+            #menu{
+                margin-top: 26px;
+                text-align: center;
+            }
+            #menu ul{
+                display: none;
+                margin: 15px 0;
+            }
+            #menu ul li{
+                margin: 5px;
+                text-align: left;
+            }
+            #menu .click-show-menu{
+                display: block;
+            }
+            .show-menu{
+                display: grid !important;
+            }
+            .shop .shop-online{
+                margin: 0;
+                width: 120px;
+            }
+            #menu ul li>.sup-menu {
+                position: static;
+                width: 100%;
+            }
+            /*
+
+            slideshow
+            */
+
+            .slideshow{
+                height: 300px;
+            }
+             /*
+            TOP CHEF
+            */
+            .follow-chef a{
+                width: 90px;
+            }
+            /*
+                blog
+            */
+            section#top-chef{
+                grid-template-columns: 100%;
+            }
+            /*
+                footer
+            */
+            footer{
+                background-position:top;
+            }
+            .Baking{
+                display: block;
+                
+            }   
+            .list-baking{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+            .list-baking>.home, .navigation, .company, .contant-us{
+                width: 100%;
+                padding-left: 0;
+                padding-right: 5%;
+            }
+        }
+        /*
+            responsive > 992
+            */
+        @media screen and (min-width:992px){
+            /*
+                Baking
+            */
+            .title-baking{
+                width: 20%;
+            }
+            .list-baking{
+                width: 80%;
+            }
+        }
+        @media screen and (min-width:992px) and (max-width:1166px){
+                .banner{
+                    grid-template-columns: 20% 60% 20%;
+                }
+                .banner .logo a>img{
+                    margin: 0;
+                }
+        }
+      
+/*
+        HIỆU ỨNG 
+*/        
+        /*
+            Card
+        */
+            .up{
+                transform: translateY(-60px); 
+            }
+
+            .xuong{
+                transform: translateY(0);
+            }
+
+        /* 
+            welcome baking
+        */
+        .chuyendong-baking{
+            transition: 2s;
+            transform: translateX(0) !important;
+            /* animation: dichuyen 1.5s; */
+        }
+        .chuyendongsau{
+            transition: 4s !important;
+            transform: translateX(0) !important;
+        }
